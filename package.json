@@ -1,0 +1,12 @@
+{
+  "name": "medflow-fullstack",
+  "version": "1.0.0",
+  "description": "MEDFLOW - Unified AI Clinical Handoff & Continuity Platform",
+  "main": "server/server.js",
+  "scripts": {
+    "build": "cd client && npm run build",
+    "start": "cd server && node server.js",
+    "dev": "cd server && node server.js"
+  },
+  "keywords": ["healthcare", "ai", "handoff", "react", "express"]
+}
